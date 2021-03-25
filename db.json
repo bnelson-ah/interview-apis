@@ -2,7 +2,7 @@
   "accounts": [
     { "id": 1, "userId": "1", "createdOn": "03-03-2021", "modifiedOn": "03-03-2021","active":"false", "description":"old account" },
     { "id": 2, "userId": "1", "createdOn": "03-04-2021", "active":"true", "description":"new account"  },
-    { "id": 3, "userId": "3", "createdOn": "03-03-2021", "active":"true", "description":"special account"  },
+    { "id": 3, "userId": "3", "createdOn": "03-03-2021", "active":"true", "description":"special account"  }
   ],
   "users": [
     { "id": 1, "name": "Bob" },
