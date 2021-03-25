@@ -1,14 +1,19 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "accounts": [
+    { "id": 1, "userId": "1", "createdOn": "03-03-2021", "modifiedOn": "03-03-2021","active":"false", "description":"old account" },
+    { "id": 2, "userId": "1", "createdOn": "03-04-2021", "active":"true", "description":"new account"  },
+    { "id": 3, "userId": "3", "createdOn": "03-03-2021", "active":"true", "description":"special account"  },
+  ],
+  "users": [
+    { "id": 1, "name": "Bob" },
+    { "id": 2, "name": "Mary" },
+    { "id": 3, "name": "Jane" }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    { "id": 1, "body": "some comment", "accountId": 1 },
+    { "id": 2, "body": "some other comment", "accountId": 2 }
   ],
   "profile": {
-    "name": "typicode"
+    "name": "earnin"
   }
 }
